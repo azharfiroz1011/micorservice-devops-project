@@ -54,7 +54,7 @@ resource "aws_iam_role" "worker" {
 }
 
 resource "aws_iam_policy" "autoscaler" {
-  name = "govind-eks-autoscaler-policy1"
+  name = "azhar-eks-autoscaler-policy1"
   policy = jsonencode({
     Version = "2012-10-17",
     Statement = [{
@@ -190,7 +190,7 @@ resource "aws_eks_node_group" "node-grp" {
 
   scaling_config {
     desired_size = 1
-    max_size     = 10
+    max_size     = 3
     min_size     = 1
   }
 
