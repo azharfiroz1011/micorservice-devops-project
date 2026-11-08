@@ -6,7 +6,7 @@ pipeline {
         GIT_EMAIL = "azharfiroz1011@gmail.com"
         GIT_USER_NAME = "azharfiroz1011"
         IMAGE_NAME = "adservice"
-        REPO_URL = "253291597598.dkr.ecr.ap-south-1.amazonaws.com/adservice"
+        REPO_URL = "609788901798.dkr.ecr.ap-south-1.amazonaws.com/adservice"
         YAML_FILE = "adservice.yaml"
         GIT_TOKAN = credentials('git-tokan')
     }
@@ -40,9 +40,9 @@ pipeline {
             steps {
                 script {
                     sh '''
-                aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 253291597598.dkr.ecr.ap-south-1.amazonaws.com    
-		docker tag adservice:latest 253291597598.dkr.ecr.ap-south-1.amazonaws.com/adservice:${BUILD_NUMBER}
-                    docker push 253291597598.dkr.ecr.ap-south-1.amazonaws.com/adservice:${BUILD_NUMBER}
+                aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 609788901798.dkr.ecr.ap-south-1.amazonaws.com    
+		docker tag adservice:latest 609788901798.dkr.ecr.ap-south-1.amazonaws.com/adservice:${BUILD_NUMBER}
+                    docker push 609788901798.dkr.ecr.ap-south-1.amazonaws.com/adservice:${BUILD_NUMBER}
                     '''
                 }
             }
