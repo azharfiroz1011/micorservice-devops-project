@@ -4,7 +4,7 @@
 
 first git clone
 
-git clone :-  git clone https://github.com/gsharma1298/micro-service.git
+git clone :-  git clone https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 
 install aws cli
@@ -33,7 +33,7 @@ terraform apply --auto-approve
 if already have any resorce you have to run import command
 
 like
-terraform import aws_iam_instance_profile.instance-profile govind-profile
+terraform import aws_iam_instance_profile.instance-profile azhar-profile
 terraform import aws_iam_role.iam-role project-iam-role1
 terraform import aws_iam_policy.eks_policy arn:aws:iam::623577189957:policy/eks_policy
 
@@ -62,11 +62,11 @@ STEP 1: CLONE GITHUB REPOSITORY
 
 Open VS Code Terminal:
 
-git clone https://github.com/gsharma1298/micro-service.git
+git clone https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 Navigate into the project:
 
-cd micro-service
+cd micorservice-devops-project
 
 Check files:
 
@@ -368,7 +368,7 @@ Pipeline script from SCM
 
 Repository:
 
-https://github.com/gsharma1298/micro-service.git
+https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 Branch:
 
@@ -640,7 +640,7 @@ Git
 
 Repository:
 
-https://github.com/gsharma1298/micro-service.git
+https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 Branch:
 
@@ -813,7 +813,7 @@ Automatic
 
 Repository URL:
 
-https://github.com/gsharma1298/micro-service.git
+https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 Revision:
 
@@ -900,7 +900,7 @@ Create or use your Public Hosted Zone.
 
 Example domain:
 
-hr82.online
+cart24x7.online
 
 
 then go to hostinger domain
@@ -934,7 +934,7 @@ Public Certificate
 
 Domain:
 
-hr82.online
+cart24x7.online
 
 
 Choose:
@@ -1499,7 +1499,7 @@ VELERO BACKUP SETUP FOR AMAZON EKS USING S3 + IRSA
 
 export CLUSTER_NAME=project-eks
 export REGION=ap-south-1
-export BUCKET=gsharma1298
+export BUCKET=azhar1011
 
 
 3. CONNECT KUBECTL TO EKS
