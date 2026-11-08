@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        GIT_REPO_NAME = "micor-service"
+        GIT_REPO_NAME = "micorservice-devops-project"
         GIT_EMAIL = "azharfiroz1011@gmail.com"
         GIT_USER_NAME = "azharfiroz1011"
         IMAGE_NAME = "adservice"

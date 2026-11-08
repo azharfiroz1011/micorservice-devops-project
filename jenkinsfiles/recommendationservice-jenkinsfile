@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout from Git') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/gsharma1298/micro-service.git'
+                    url: 'https://github.com/azharfiroz1011/micorservice-devops-project.git'
             }
         }
 
@@ -54,9 +54,9 @@ pipeline {
 
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "micro-service"
-                GIT_EMAIL = "gsharma1298@gmail.com"
-                GIT_USER_NAME = "gsharma1298"
+                GIT_REPO_NAME = "micorservice-devops-project"
+                GIT_EMAIL = "azharfiroz1011@gmail.com"
+                GIT_USER_NAME = "azharfiroz1011"
                 IMAGE_NAME = "recommendationservice"
                 REPO_URL = "253291597598.dkr.ecr.ap-south-1.amazonaws.com/recommendationservice"
                 YAML_FILE = "recommendationservice.yaml"
