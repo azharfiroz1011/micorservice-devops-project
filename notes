@@ -488,7 +488,7 @@ Git
 
 Repository:
 
-https://github.com/gsharma1298/micro-service.git
+https://github.com/azharfiroz1011/micorservice-devops-project.git
 
 Branch:
 
@@ -518,7 +518,7 @@ Repeat the same process for the remaining services.
 
 change the git hub url to your
 
-sed -i 's|https://github.com/gsharma1298/Microservices.git|https://github.com/gsharma1298/micro-service.git|g' jenkinsfiles/*
+sed -i 's|https://github.com/azharfiroz1011/micorservice-devops-project.git|https://github.com/azharfiroz1011/micorservice-devops-project.git|g' jenkinsfiles/*
 
 
 
