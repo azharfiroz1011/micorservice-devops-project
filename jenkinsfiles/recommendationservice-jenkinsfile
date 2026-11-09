@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/azharfiroz1011/micorservice-devops-project.git'
             }
         }
@@ -90,7 +90,7 @@ pipeline {
 
                                 git push \
                                 https://${git_token}@github.com/${GIT_USER_NAME}/${GIT_REPO_NAME}.git \
-                                HEAD:master
+                                HEAD:main
                             fi
                         '''
                     }
