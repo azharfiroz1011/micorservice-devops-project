@@ -33,7 +33,7 @@ pipelineFiles.each { file ->
                         remote {
                             url(repoUrl)
                         }
-                        branch("*/master")
+                        branch("*/main")
                     }
                 }
                 scriptPath("jenkinsfiles/${file}")
